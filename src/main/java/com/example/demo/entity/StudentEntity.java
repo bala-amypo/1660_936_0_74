@@ -1,6 +1,6 @@
 package com.example.demo.entity
 
-im
+import.java
 @Entity
 public class StudentEntity{
     private Integer id;
@@ -9,3 +9,11 @@ public class StudentEntity{
     private String password;
     private Date createAt;
 }
+
+public void setId(Integer id){
+    this.id=id;
+}
+public void getId(){
+    return id;
+}
+public void setuser
