@@ -24,7 +24,7 @@ public void setId(Integer id){
 public Integer getId(){
     return id;
 }
-public void setUserName(String name){
+public void setUserName(String username){
     this.username=username;
 }
 public String getUserName(){
@@ -42,7 +42,7 @@ public void setPassword(String Password){
 public String getPassword(){
     return password;
 }
-public void setCreatAt(Date Created){
+public void setCreated(Date Created){
     this.created=created;
 }
 public Date getCreated(){
