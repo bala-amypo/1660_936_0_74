@@ -7,7 +7,7 @@ public class StudentEntity{
     private String username;
     private String email;
     private String password;
-    private Date createAt;
+    private Date created;
 }
 
 public void setId(Integer id){
@@ -31,4 +31,10 @@ public String getEmail(){
 public void setPassword(String Password){
     this.password=password;
 }
-public String 
+public String getPassword(){
+    return password;
+}
+public void setCreatAt(Date Created){
+    this.created=CreateAt;
+}
+public 
