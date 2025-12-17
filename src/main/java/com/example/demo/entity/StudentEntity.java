@@ -2,17 +2,17 @@ package com.example.demo.entity;
 
 
 import java.util.Date;
-import jakarta.persistance.Entity;
-import jakarta.persistance.GeneratedValue;
-import jakarta.persistance.GenerationType;
-import jakarta.persistance.Id;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 @Entity
 public class StudentEntity{
 
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Integer id;
-    private String username;
+    private String name;
     private String email;
     private String password;
     private Date created;
@@ -24,11 +24,11 @@ public void setId(Integer id){
 public Integer getId(){
     return id;
 }
-public void setUserName(String username){
-    this.username=username;
+public void setName(String name){
+    this.name=name;
 }
-public String getUserName(){
-    return username;
+public String geName(){
+    return name;
 }
 public void setEmail(String Email){
     this.email=email;
