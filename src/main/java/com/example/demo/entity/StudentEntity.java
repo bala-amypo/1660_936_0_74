@@ -1,14 +1,18 @@
-package com.example.demo.entity
+package com.example.demo.entity;
 
-import.java
+import.java.sql.Date;
+
+import jakarta.
 @Entity
 public class StudentEntity{
+
+    @Id
     private Integer id;
     private String username;
     private String email;
     private String password;
     private Date created;
-}
+
 
 public void setId(Integer id){
     this.id=id;
@@ -50,5 +54,7 @@ public StudentEntity(Interger id, String name, String email, String password, Da
 }
 
 public StudentEntity(){
-    
+
+}
+
 }
