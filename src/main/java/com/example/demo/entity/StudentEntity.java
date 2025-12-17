@@ -13,7 +13,22 @@ public class StudentEntity{
 public void setId(Integer id){
     this.id=id;
 }
-public void getId(){
+public Integer getId(){
     return id;
 }
-public void setuser
+public void setUserName(String name){
+    this.username=username;
+}
+public String getUserName(){
+    return username;
+}
+public void setEmail(String Email){
+    this.email=email;
+}
+public String getEmail(){
+    return email;
+}
+public void setPassword(String Password){
+    this.password=password;
+}
+public String 
