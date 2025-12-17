@@ -30,19 +30,19 @@ public void setName(String name){
 public String geName(){
     return name;
 }
-public void setEmail(String Email){
+public void setEmail(String email){
     this.email=email;
 }
 public String getEmail(){
     return email;
 }
-public void setPassword(String Password){
+public void setPassword(String password){
     this.password=password;
 }
 public String getPassword(){
     return password;
 }
-public void setCreated(Date Created){
+public void setCreated(Date created){
     this.created=created;
 }
 public Date getCreated(){
