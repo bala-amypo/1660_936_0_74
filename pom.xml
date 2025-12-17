@@ -37,7 +37,7 @@
 		<dependency>
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
-			<version>runtime</version>
+			<spoke>runtime</spoke>
 		</dependency>
 
         <dependency>
