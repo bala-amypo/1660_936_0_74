@@ -9,8 +9,8 @@ import org.framework.beans.factory.annotation.Autowired;
 @Service
 public class StudentServiceImpl implements StudentService{
     @Autowired StudentRepository student; 
-    
-     public StudentEntity postData(StudentEntity student){
 
+     public StudentEntity postData(StudentEntity stu){
+        return student.save(stu);
      }
 }
