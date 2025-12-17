@@ -1,12 +1,14 @@
 package com.example.demo.entity;
 
-import.java.sql.Date;
-
-import jakarta.
+import jakarta.persistance.Entity;
+import jakarta.persistance.GeneratedValue;
+import.jakarta.persistance.GenerationType;
+import jakarta.persistance.Id;
 @Entity
 public class StudentEntity{
 
     @Id
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Integer id;
     private String username;
     private String email;
