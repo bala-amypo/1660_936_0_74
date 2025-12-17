@@ -1,10 +1,10 @@
 package com.example.demo.entity;
 
 
-import java.util.date;
+import java.util.Date;
 import jakarta.persistance.Entity;
 import jakarta.persistance.GeneratedValue;
-import.jakarta.persistance.GenerationType;
+import jakarta.persistance.GenerationType;
 import jakarta.persistance.Id;
 @Entity
 public class StudentEntity{
@@ -49,7 +49,7 @@ public Date getCreated(){
     return created;
 }
 
-public StudentEntity(Interger id, String name, String email, String password, Date created){
+public StudentEntity(Integer id, String name, String email, String password, Date created){
     this.id=id;
     this.name=name;
     this.email=email;
