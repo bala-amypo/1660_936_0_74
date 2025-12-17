@@ -41,7 +41,7 @@ public String getPassword(){
     return password;
 }
 public void setCreatAt(Date Created){
-    this.createdcCreated;
+    this.created=created;
 }
 public Date getCreated(){
     return created;
