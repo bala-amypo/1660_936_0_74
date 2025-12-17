@@ -35,6 +35,20 @@ public String getPassword(){
     return password;
 }
 public void setCreatAt(Date Created){
-    this.created=CreateAt;
+    this.createdcCreated;
 }
-public 
+public Date getCreated(){
+    return created;
+}
+
+public StudentEntity(Interger id, String name, String email, String password, Date created){
+    this.id=id;
+    this.name=name;
+    this.email=email;
+    this.password=password;
+    this.created=created;
+}
+
+public StudentEntity(){
+    
+}
