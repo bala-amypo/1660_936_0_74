@@ -1,16 +1,17 @@
 package com.example.demo.service.Impl;
 
 import org.springframework.stereotype.Service;
-import com.example.demo.service.StudentService;
-import com.example.demo.entity.StudentEntity;
+import com.example.demo.service.ValidationService;
+import com.example.demo.entity.ValidationEntity;
 import org.springframework.beans.factory.annotation.Autowired;
-import com.example.demo.repository.StudentRepository;
+import com.example.demo.repository.ValidationRepository;
 
 
 @Service
 public class ValidationServiceImpl implements ValidationService{
-    @Autowired ValidationRepository student; 
+    @Autowired ValidationRepository valid; 
     @Override
-     public ValidationEntity postData(StudentEntity stu){
-        return student.save(stu);
+     public ValidationEntity postDatas(ValidationEntity val){
+        return valid.save(val);
      }
+}
