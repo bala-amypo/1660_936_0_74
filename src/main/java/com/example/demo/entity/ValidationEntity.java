@@ -25,4 +25,29 @@ public class ValidationEntity{
     @max(30)
     @Positive(message="age must be positive")
     private int age;
+
+    public void setId(Long id){
+    this.id=id;
+    }
+    public Long getId(){
+        return id;
+    }
+    public void setName(String username){
+        this.username=username;
+    }
+    public String getName(){
+        return name;
+    }
+    public void setEmail(String email){
+        this.email=email;
+    }
+    public String getEmail(){
+        return email;
+    }
+    public void setPassword(String password){
+        this.password=password;
+    }
+    public String getPassword(){
+        return password;
+    }
 }

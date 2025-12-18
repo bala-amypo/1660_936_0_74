@@ -27,7 +27,7 @@ public Integer getId(){
 public void setName(String name){
     this.name=name;
 }
-public String geName(){
+public String getName(){
     return name;
 }
 public void setEmail(String email){
