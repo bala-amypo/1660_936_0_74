@@ -31,4 +31,6 @@ public class StudentController{
         public String deletevalue(@PathVariable int id){
             return ser.deleteData(id);
         }
+
+    
 }
