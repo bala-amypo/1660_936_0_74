@@ -8,7 +8,7 @@ import com.example.demo.repository.ValidationRepository;
 
 
 @Service
-public interface ValidationServiceImpl implements ValidationService{
+public class ValidationServiceImpl implements ValidationService{
     @Autowired ValidationRepository valid; 
     @Override
      public ValidationEntity postDatas(ValidationEntity val){
