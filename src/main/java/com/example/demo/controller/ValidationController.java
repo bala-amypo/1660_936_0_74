@@ -13,10 +13,10 @@ import com.example.demo.service.ValidationService;
 @RestController
 public class ValidationController{
 
-    @Autowired ValidationService val;
+    @Autowired ValidationService valid;
     
     @PostMapping("/post")
-    public ValidationEntity giveData(@Valid @RequestBody ValidationEntity vals){
-        return val.postValue(vals);
+    public ValidationEntity giveData(@Valid @RequestBody ValidationEntity val){
+        return valid.postValue(val);
     }
 }
