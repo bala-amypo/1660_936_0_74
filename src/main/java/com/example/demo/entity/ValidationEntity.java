@@ -54,7 +54,7 @@ public class ValidationEntity{
     public void setAge(int age){
         this.age=age;
     }
-    public String getAge(){
+    public int getAge(){
         return age;
     }
 
