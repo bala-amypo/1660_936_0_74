@@ -19,7 +19,7 @@ public class ValidationEntity{
     private String username;
     @Email(message="Email is not valid")
     private String email;
-    @Size(6)
+    @Size(min=3,max=6,message="must be 3 to 6 character")
     @NotNull(message="Password is mandatory")
     private String password;
     @max(30)
@@ -60,7 +60,7 @@ public class ValidationEntity{
     public ValidationEntity(
         Long id,@NotNull @Size(min=2,max=10,message="must be 2 to 10 character")
         String username, @Email(message="Email is not valid")
-        String email,@Size(6) @NotNull(message="Password is mandatory")
+        String email,@Size(min=3,max=6,message="must be 2 to 10 character") @NotNull(message="Password is mandatory")
         String password, @max(30) @Positive(message="age must be positive")
         int age){
             this.id=id;
@@ -70,7 +70,7 @@ public class ValidationEntity{
             this.age=age;
         }
     public ValidationEnity(){
-        
+
     }
 
     
