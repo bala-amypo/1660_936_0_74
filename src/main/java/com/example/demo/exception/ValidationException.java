@@ -2,5 +2,7 @@ package com.example.demo.exception;
 
 public class ValidationException extends RuntimeException {
 
-public Validdation
+public ValiddationException(String message){
+    super(message);
+}
 }
