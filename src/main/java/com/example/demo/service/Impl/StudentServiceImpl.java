@@ -14,8 +14,14 @@ public class StudentServiceImpl implements StudentService{
      public StudentEntity postData(StudentEntity stu){
         return student.save(stu);
      }
+
      @Override
       public List<StudentEntity>getAllData(){
          return student.findAll();
+      }
+
+      @Override
+      public String DeleteData(){
+         
       }
 }
