@@ -29,4 +29,9 @@ public class TimestampEntity{
         this.createAt=now;
         this.updateAt=now;
     }
+
+    @PreUpdate
+    public void Onupdate(){
+        this.updateAt=now;
+    }
 }
