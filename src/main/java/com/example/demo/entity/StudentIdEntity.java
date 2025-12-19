@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class StudentIdEntity{
-    private int id;
+    private Integer id;
     private int idno;
     private int Studentid;
    
