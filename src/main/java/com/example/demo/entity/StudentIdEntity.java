@@ -20,6 +20,9 @@ public class StudentIdEntity{
     private int idno;
     private int Studentid;
 
-@Onetoone
+    @OneToOne
+    private StudentDetails{
+        
+    }
    
 }

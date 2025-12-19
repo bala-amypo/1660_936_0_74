@@ -20,4 +20,5 @@ public class StudentDetailsEntity{
     private String name;
     private String email;
     private String address;
+    
 }
