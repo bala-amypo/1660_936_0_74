@@ -2,16 +2,16 @@ package com.example.demo.service.Impl;
 
 import org.springframework.stereotype.Service;
 import com.example.demo.service. Service;
-import com.example.demo.entity. TimestampEntity;
+import com.example.demo.entity. StudentIdEntity;
 import org.springframework.beans.factory.annotation.Autowired;
-import com.example.demo.repository. TimestampRepository;
+import com.example.demo.repository. StudentIdRepository;
 
 
 @Service
-public class TimestampServiceImpl implements TimestampService{
-    @Autowired TimestampRepository timestamp; 
+public class StudentIdServiceImpl implements StudentIdService{
+    @Autowired StudentIdRepository st; 
     @Override
-     public TimestampEntity postTimeData( TimestampEntity time){
-        return timestamp.save(time);
+     public StudentIdEntity postIdData( StudentIdEntity sts){
+        return st.save(sts);
      }
 }
