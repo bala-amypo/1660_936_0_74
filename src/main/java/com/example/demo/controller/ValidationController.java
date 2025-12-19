@@ -26,4 +26,4 @@ public class ValidationController{
         public ValidationEntity getvaldataid(@PathVariable Long id){
             return valid.getvalData(id);
 }
-}
+}  
