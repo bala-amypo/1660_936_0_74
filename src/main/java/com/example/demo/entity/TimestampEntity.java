@@ -8,10 +8,12 @@ import lombok.Data;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import java.time.LocalDateTime;
+import
 @Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Prepersist
 public class TimestampEntity{
      @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
