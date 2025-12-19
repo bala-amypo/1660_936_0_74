@@ -8,7 +8,7 @@ import lombok.Data;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import java.time.LocalDateTime;
-import jakarta.persistence.PrePersist;
+import jakarta.persistence.Prepersist;
 import jakarta.persistence.PreUpdate;
 @Entity
 @Data
