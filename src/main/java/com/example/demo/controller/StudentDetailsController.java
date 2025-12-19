@@ -7,16 +7,16 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 
 
-import com.example.demo.entity.TimestampEntity;
-import com.example.demo.service.TimestampService;
+import com.example.demo.entity.StudentDetaitlsEntity;
+import com.example.demo.service.StudentDetailsService;
 
 @RestController
-public class TimestampController{
+public class StudentDetailsController{
 
-    @Autowired TimestampService times;
+    @Autowired StudentDetailsService servd;
     
-    @PostMapping("/posted")
-    public TimestampEntity sendsData(@RequestBody TimestampEntity time){
-        return times.postTimeData(time);
+    @PostMapping("/postings")
+    public StudentDetailsEntity sendDetailsData(@RequestBody StudentDetailsEntity tie){
+        return servd.postDetailsData(tie);
     }
 }
