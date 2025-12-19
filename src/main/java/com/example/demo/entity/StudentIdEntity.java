@@ -4,7 +4,7 @@ import jakarta.persistence.Entity;
 import lombok.Data;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
-import java.time.LocalDateTime;
+
 
 @Entity
 @Data
@@ -12,6 +12,6 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 public class StudentIdEntity{
     private String id;
-    private String id;
-    private String address;
+    private String idno;
+   
 }
