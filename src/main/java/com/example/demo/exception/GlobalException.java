@@ -12,4 +12,4 @@ public class GlobalException {
     public ResponseEntity<String>handleValidationException(ValidationException ex){
         return new ResponseEntity<String>(ex.getMessage(),HttpStatus.BAD_GATEWAY);
     }
-}
+} 
