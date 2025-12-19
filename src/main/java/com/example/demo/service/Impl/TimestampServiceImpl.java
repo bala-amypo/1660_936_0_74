@@ -9,9 +9,9 @@ import com.example.demo.repository. TimestampRepository;
 
 @Service
 public class TimestampServiceImpl implements TimestampService{
-    @Autowired TimestampRepository student; 
+    @Autowired TimestampRepository timestamp; 
     @Override
-     public TimestampEntity postData( TimestampEntity stu){
-        return student.save(stu);
+     public TimestampEntity postTimeData( TimestampEntity time){
+        return timestamp.save(time);
      }
 }
