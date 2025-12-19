@@ -23,7 +23,7 @@ public class ValidationController{
     }
                                      
     @GetMapping("/getvalid/{id}")
-        public ValidationEntity getvaldataid(@PathVariable int id){
+        public ValidationEntity getvaldataid(@PathVariable Long id){
             return valid.getvalData(id);
 }
 }
