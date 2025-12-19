@@ -7,7 +7,6 @@ import jakarta.persistence.GenerationType;
 import lombok.Data;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
-import 
 
 
 @Entity
@@ -17,10 +16,10 @@ import
 public class StudentDetailsEntity{
       @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
-    private String id;
+    private Integer id;
     private String name;
     private String email;
     private String address;
 
-    @
+
 }
