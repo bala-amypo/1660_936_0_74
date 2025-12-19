@@ -11,7 +11,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class StudentIdEntity{
-    private String id;
-    private String idno;
+    private int id;
+    private int idno;
+    private int Studentid;
    
 }
